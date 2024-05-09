@@ -1,9 +1,13 @@
-let lloviendo = true
-let nublado = true
-let pronostico = true
 
-if(!lloviendo || nublado ){
-    console.log("Lleva un paraguas");
-}else{
-    console.log("no lleves paraguas");
+
+let nombreProducto = "cafetera"
+let precioUnitario = 500000
+let cantidadDeseada = prompt("Ingrese la cantidad de Cafeteras que desea")
+if (cantidadDeseada>= 5){
+    alert("¡¡Tenes un 10% de Descuento!!")
+    costoTotal= cantidadDeseada * precioUnitario
+    DescuentoA= costoTotal / 100
+    DescuentoB = DescuentoA *10
+    Descuentototal= costoTotal - DescuentoB
+alert( Descuentototal )
 }
