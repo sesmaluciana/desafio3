@@ -11,3 +11,9 @@ if (cantidadDeseada>= 5){
     Descuentototal= costoTotal - DescuentoB
 alert( Descuentototal )
 }
+else {
+costoTotal= cantidadDeseada * precioUnitario
+    alert(costoTotal)
+
+}
+    
